@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import { configureStore } from '@reduxjs/toolkit'
 import { Provider } from 'react-redux'
 import bookReducer from './redux/bookSlice.jsx'
-import './index.css'
 import React from 'react'
 
 const store = configureStore({
