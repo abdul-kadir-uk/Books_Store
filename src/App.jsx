@@ -2,7 +2,7 @@ import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import ErrorPage from './components/ErrorPage'
 import HomePage from './components/HomePage'
-import BooksList from './components/BooksList'
+import BrowseBooks from './components/BrowseBooks'
 import AddBook from './components/AddBook'
 import BookDetails from './components/BookDetails'
 import NotFound from './components/NotFound'
@@ -22,8 +22,8 @@ function App() {
         errorElement: <ErrorPage />
       },
       {
-        path: "/books-list",
-        element: <BooksList />,
+        path: "/browse-books",
+        element: <BrowseBooks />,
         errorElement: <ErrorPage />
       },
       {

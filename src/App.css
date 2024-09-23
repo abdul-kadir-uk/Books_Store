@@ -19,6 +19,27 @@
   font-size: 1.5em;
 }
 
+@media (max-width:600px) {
+  .home_ul {
+    flex-direction: column;
+  }
+
+  .navbar_menu {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .add-book-container {
+    width: 50%;
+  }
+
+  .add-book-form input,
+  .add-book-form textarea {
+    font-size: 0.8rem;
+  }
+
+}
+
 .home_ul li a {
   text-decoration: none;
   color: rgb(0, 95, 248);
@@ -239,7 +260,7 @@
 .add-book-form input,
 .add-book-form textarea {
   padding: 0.8rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
   border: 1px solid #ccc;
   border-radius: 5px;
   width: 100%;
@@ -290,4 +311,17 @@
   font-size: 1.2rem;
   padding: 10px;
   margin: 10px 20px;
+}
+
+#category {
+  font-size: 1.1rem;
+  margin-left: 10px;
+}
+
+.cate {
+  font-size: 1.1rem;
+}
+
+.rate {
+  font-size: 1.1rem;
 }

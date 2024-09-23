@@ -16,9 +16,8 @@ const BookDetails = () => {
           <img src={book.img} alt={book.title} className="book_image_details" />
           <p>by {book.author}</p>
           <p className="book_description">{book.description}</p>
-
           <p>Rating: {book.rating}</p>
-          <Link to="/books-list" className="back_button">Back to Books</Link>
+          <Link to="/browse-books" className="back_button">Back to Books</Link>
         </>
       ) : (
         <p>Book not found</p>

@@ -15,10 +15,10 @@ const HomePage = () => {
       <div className="home_fiction">
         <h2 className='home_cat'>Categories</h2>
         <ul className='home_ul'>
-          <li><Link to="/books-list?category=Fiction">Fiction</Link></li>
-          <li><Link to="/books-list?category=Non-Fiction">Non-Fiction</Link></li>
-          <li><Link to="/books-list?category=Science Fiction">Sci-Fi</Link></li>
-          <li><Link to="/books-list?category=Biography">Biography</Link></li>
+          <li><Link to="/browse-books?category=Fiction">Fiction</Link></li>
+          <li><Link to="/browse-books?category=Non-Fiction">Non-Fiction</Link></li>
+          <li><Link to="/browse-books?category=Science Fiction">Sci-Fi</Link></li>
+          <li><Link to="/browse-books?category=Biography">Biography</Link></li>
         </ul>
       </div>
 
